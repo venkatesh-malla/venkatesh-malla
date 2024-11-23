@@ -1,0 +1,142 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #2C3E50;
+  color: #ECF0F1;
+  line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background-color: #1A2530;
+}
+
+nav .logo a {
+  font-size: 24px;
+  color: #E74C3C;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #ECF0F1;
+  font-size: 18px;
+}
+
+.nav-links li a:hover {
+  color: #E74C3C;
+}
+
+/* Hero Section */
+#hero {
+  padding: 100px 0;
+  background: #34495E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.text-container {
+  flex: 1;
+}
+
+.text-container h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.text-container p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.photo-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 70%;
+  object-fit: cover;
+  border: 5px solid #E74C3C; /* Attractive red border */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Skills Section */
+#skills {
+  padding: 60px 0;
+  background: #34495E;
+}
+
+#skills h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.skill-box {
+  background: #1A2530;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.skill-box i {
+  font-size: 40px;
+  color: #E74C3C;
+}
+
+.skill-box p {
+  font-size: 18px;
+  color: #ECF0F1;
+  margin-top: 10px;
+}
+
+/* Section Boxes */
+section {
+  margin-bottom: 60px;
+}
+
+.Project-box, .certificate-box, .education-box, .internship-box {
+  background: #1A2530;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.certificate-box p, .education-box p
